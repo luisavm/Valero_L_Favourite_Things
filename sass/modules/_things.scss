@@ -1,17 +1,26 @@
+.user-panel-heading{
+
+    font-family: $headings-font;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+        // letter-spacing: 2px;
+    
+}
 .threeFavouriteThings { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-    margin-top:80px;
+    margin-top:60px;
     padding:30px;
 
     h1
     {
-        font-family: $heading-font;
+        font-family: $headings-font;
         font-size: 70px;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     }
 
     .user-panel {
@@ -30,9 +39,7 @@
             padding: 5px;
         }
 
-        h2, h3 { margin: 5px 0; }
-
-       
+        h2, h3 { margin: 5px 0; } 
     }
 }
 

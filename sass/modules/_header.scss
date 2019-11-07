@@ -1,12 +1,23 @@
 #main-header{
     margin-top:80px;
     padding:30px;
+    
 
     h1
     {
-        font-family: $heading-font;
-        font-size: 70px;
+        font-family: $headings-font;
+        font-size: 50px;
         letter-spacing: 2px;
+        text-align: center;
     }
+
+   p
+   {
+    font-family: $p-font;
+    color: $p-color;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+   }
     
 }
