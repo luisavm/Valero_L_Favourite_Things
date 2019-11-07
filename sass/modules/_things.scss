@@ -1,0 +1,48 @@
+.threeFavouriteThings { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin-top:80px;
+    padding:30px;
+
+    h1
+    {
+        font-family: $heading-font;
+        font-size: 70px;
+        letter-spacing: 2px;
+    }
+
+    .user-panel {
+        flex: 0 1 200px;
+        text-align: center;
+        padding: 8px;
+
+        .i-image { max-width: 300px; }
+
+        .image-link { 
+            display: block; 
+            //width: 150px;  
+            text-decoration: none;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+        }
+
+        h2, h3 { margin: 5px 0; }
+
+       
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .threeFavouriteThings{
+        .user-panel { 
+            flex: 1 1;
+
+            .i-image { max-width: 300px; }
+        }
+    }
+}
+

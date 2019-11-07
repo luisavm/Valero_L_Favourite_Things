@@ -1,0 +1,20 @@
+@import '_vars';
+@import 'modules/_navbar';
+@import 'modules/_things';
+@import 'modules/_lightbox';
+
+body { 
+    background-color: $body-bg;
+}
+
+h1, h2, h3 { color: $heading-color; }
+
+.panel { min-height: 80vh; }
+
+.panel:nth-child(odd) {
+    color:#F5EFEB;
+}
+
+// #to-top { position: fixed; bottom: 10px; right: 10px; display: none; }
+
+@import 'modules/_footer'
