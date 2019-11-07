@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans%7CPoppins&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>My Three Favourite things</title>
+</head>
+
+<body>
+
+    <header id="main-header">
+        <h1>MY THREE FAVOURITE THINGS</h1>
+        <h3> 3 things you need to know about me. I can't live without desserts.</h3>
+    </header>
+
+    <main>
+        {{{ body }}}
+    </main>
+
+     <footer>
+    <p id="copy-right">©Copyright Luisa Valero 2019.</p>
+    </footer>
+
+
+    <script type="module" src="js/main.js"></script>
+    <script>
+        var name = "Luisa Valero";
+
+        console.log('name in main file: ' + name);
+    </script>
+
+    <!-- templates -> these don't get rendered immediately -->
+    <template id="user-template">
+        <!-- you can put all kinds of markup here - semantic tagging, etc -->
+        <div class="user-panel">
+            <div class="user-panel-header">
+                <img class="u-image"></img>
+                <h1 class="u-title"></h1>
+            </div>
+
+            <button class="user-button">More Details</button>
+        </div>
+    </template>
+    <!-- end templates-->
+</body>
+
+</html>
