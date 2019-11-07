@@ -1,13 +1,14 @@
 @import '_vars';
 @import 'modules/_navbar';
 @import 'modules/_things';
+@import 'modules/_header';
 @import 'modules/_lightbox';
 
 body { 
     background-color: $body-bg;
 }
 
-h1, h2, h3 { color: $heading-color; }
+h1, h2, h3 { color: $headings-color; }
 
 .panel { min-height: 80vh; }
 
