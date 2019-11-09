@@ -13,12 +13,11 @@ My favorite desserts have one thing in common they all are made with one ingredi
 * **SQL**
 
 
-## Packages to Install 
-If you run the `cat package.json` command, you'll see that you need these packages to run the program:
-
+## Programs to Install 
 * NPM
 * Node JS
 * Express
+* Handlebars
 
 To install: `npm install`
 
