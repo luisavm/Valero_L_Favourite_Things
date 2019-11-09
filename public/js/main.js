@@ -16,16 +16,16 @@ const myVM = (() => {
         targetImg = lightBox.querySelector('img');
 
         let dessertContent = `
-        <h4>FLAVOUR</h4>
+        <h3>FLAVOUR</h3>
         <p>${sweetTreat.flavour}</p>
 
-        <h4>PRICE</h4>
+        <h3>PRICE</h3>
         ${renderDesssertPrice(sweetTreat.price)}
 
-        <h4>ABOUT</h4>
+        <h3>ABOUT</h3>
         <p>${sweetTreat.about}</p>
 
-        <h4>LOCATION</h4>
+        <h3>LOCATION</h3>
         <p>${sweetTreat.location}</p>
         `;
 
@@ -39,7 +39,8 @@ const myVM = (() => {
         event.preventDefault();
         // debugger;
        //1,2, or 3 depending on which anchor tag you click
-        let url = `/${this.getAttribute(`href`)}`,
+     
+        let url = `/users/${this.getAttribute(`href`)}`,
         currentImg = this.previousElementSibling.getAttribute('src');
 
 

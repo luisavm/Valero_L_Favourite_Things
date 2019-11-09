@@ -1,8 +1,10 @@
 @import '_vars';
 @import 'modules/_navbar';
-@import 'modules/_things';
+@import 'modules/_desserts';
 @import 'modules/_header';
 @import 'modules/_lightbox';
+@import 'modules/_errors';
+
 
 body { 
     background-color: $body-bg;
@@ -10,12 +12,13 @@ body {
 
 h1, h2, h3 { color: $headings-color; }
 
+
+
 .panel { min-height: 80vh; }
 
 .panel:nth-child(odd) {
     color:#F5EFEB;
 }
 
-// #to-top { position: fixed; bottom: 10px; right: 10px; display: none; }
 
 @import 'modules/_footer'
